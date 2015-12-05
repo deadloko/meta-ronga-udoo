@@ -4,6 +4,8 @@
 include linux-udoo.inc
 
 # Kernel_Unico is a branch from 3.0.35 so we apply the 3.0.35 patches
+
+SRC_URI[md5sum] = "675a12332221889fc93b073468f46e0a"
 SRCREV = "6c8f3b0246bc130ca322cc411463351aa9be8e64"
 LOCALVERSION = "imx_3.14.28_1.0.0_ga_a62"
 
