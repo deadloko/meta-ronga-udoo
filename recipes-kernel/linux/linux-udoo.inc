@@ -12,5 +12,5 @@ LOCALVERSION ?= "+yocto"
 SCMVERSION ?= "y"
 
 # SRC_URI for wandboard kernel
-SRC_URI = "https://github.com/deadloko/meta-ronga-udoo.git"
+SRC_URI = "https://github.com/deadloko/linux_kernel.git"
 
