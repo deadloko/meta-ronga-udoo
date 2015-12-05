@@ -1,7 +1,7 @@
 # Adapted from linux-imx.inc, copyright (C) 2012, 2013 O.S. Systems Software LTDA
 # Released under the MIT license (see COPYING.MIT for the terms)
 
-DESCRIPTION = "Linux kernel UNICO 2013 for UDOO"
+DESCRIPTION = "Linux kernel for UDOO"
 LICENSE = "GPLv2"
 LIC_FILES_CHKSUM = "file://COPYING;md5=d7810fab7487fb0aad327b76f1be7cd7"
 
@@ -12,6 +12,5 @@ LOCALVERSION ?= "+yocto"
 SCMVERSION ?= "y"
 
 # SRC_URI for wandboard kernel
-SRC_URI = "git://github.com/UDOOboard/Kernel_Unico.git \
-           file://defconfig \
-"
+SRC_URI = "https://github.com/deadloko/meta-ronga-udoo.git"
+
