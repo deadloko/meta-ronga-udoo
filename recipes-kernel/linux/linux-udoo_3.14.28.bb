@@ -1,8 +1,11 @@
 # Adapted from linux-imx_${PV}.bb, copyright (C) 2013 O.S. Systems Software LTDA
 # Released under the MIT license (see COPYING.MIT for the terms)
 
-include linux-udoo.inc linux-dtb.inc
+include linux-udoo.inc 
+include linux-dtb.inc
 
+LICENSE = "GPLv2"
+LIC_FILES_CHKSUM = "file://COPYING;md5=d7810fab7487fb0aad327b76f1be7cd7"
 # Kernel_Unico is a branch from 3.0.35 so we apply the 3.0.35 patches
 
 SRC_URI = "git://github.com/deadloko/linux_kernel.git;protocol=git;branch=${SRCBRANCH} \
