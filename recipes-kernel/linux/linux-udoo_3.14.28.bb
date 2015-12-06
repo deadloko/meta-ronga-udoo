@@ -11,7 +11,8 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=d7810fab7487fb0aad327b76f1be7cd7"
 SRC_URI = "git://github.com/deadloko/linux_kernel.git;protocol=git;branch=${SRCBRANCH} \
            file://defconfig"
 
-KERNEL_IMAGETYPE = "uImage"
+#KERNEL_IMAGETYPE = "uImage"
+
 SRCBRANCH = "imx_3.14.28_1.0.0_ga_a62"
 SRCREV = "6c8f3b0246bc130ca322cc411463351aa9be8e64"
 LOCALVERSION = "imx_3.14.28_1.0.0_ga_a62"
